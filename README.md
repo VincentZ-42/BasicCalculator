@@ -1,4 +1,4 @@
-# BasicCalculator: Demo
+# BasicCalculator: [Demo](https://vincentz-42.github.io/BasicCalculator/)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49771001/128779258-36082a10-bdc0-4989-9fcb-b05e60e85eb6.png">
 </p>
