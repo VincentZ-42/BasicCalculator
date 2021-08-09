@@ -5,11 +5,38 @@
   </head>
   <title>Web Calculator</title>
   <body>
-    <main></main>
+    <main class='main'>
+      <div class="calculator">
+        <div class='display'>
+          <div id="lastOperation" class='history'></div>
+          <div id="currOperation" class='current'></div>
+        </div>
+        <div class='btns-grid'>
+          <button id='clear' class='btn clearBtn span-2' value='clear'>Clear</button>
+          <button id='delete' class='btn deleteBtn span-2' value='delete'>Delete</button>
+          <button id='7' class='btn' value='7' number>7</button>
+          <button id='8' class='btn' value='8' number>8</button>
+          <button id='9' class='btn' value='9' number>9</button>
+          <button id='/' class='btn' value='/' operator>÷</button>
+          <button id='4' class='btn' value='4' number>4</button>
+          <button id='5' class='btn' value='5' number>5</button>
+          <button id='6' class='btn' value='6' number>6</button>
+          <button id='x' class='btn' value='x' operator>x</button>
+          <button id='1' class='btn' value='1' number>1</button>
+          <button id='2' class='btn' value='2' number>2</button>
+          <button id='3' class='btn' value='3' number>3</button>
+          <button id='-' class='btn' value='-' operator>-</button>
+          <button id='0' class='btn' value='0' number>0</button>
+          <button id='.' class='btn' value='.' number>.</button>
+          <button id='+' class='btn' value='+' operator>+</button>
+          <button id='equal' class='btn' value='='>=</button>
+        </div>
+      </div>
+    </main>
     <footer class="footer">
-      Copyright &copy 2021 & Built by 
+      Copyright &copy 2021
       <a class="footer-link" href="https://github.com/VincentZ-42" target="_blank">Vincent Zhao</a> |
-      <a class="footer-link" href="https://github.com/VincentZ-42/etch-a-sketch" target="_blank">Code</a>
+      <a class="footer-link" href="https://github.com/VincentZ-42/BasicCalculator" target="_blank">Code</a>
     </footer>
   </body>
   <script src="script.js"></script>
