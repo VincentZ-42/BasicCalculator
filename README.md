@@ -1,4 +1,6 @@
-# BasicCalculator
+# BasicCalculator: Demo
+
+![image](https://user-images.githubusercontent.com/49771001/128779151-7a2d646b-93c4-4951-9abf-9d94d50df981.png)
 
 ## Objectives
 - Implement a Web Calculator using HTML, CSS, and Javascript
